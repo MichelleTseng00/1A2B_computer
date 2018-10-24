@@ -50,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
         buttonPlayAgain.setOnClickListener(ButtonRightListner);
         buttonInformation.setOnClickListener(ButtonInformationListner);
 
+        textViewNum.setText("Hello!");
+
         CLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
